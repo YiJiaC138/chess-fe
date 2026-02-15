@@ -1,12 +1,10 @@
-import { useState } from 'react'
 import './App.css'
-import RenderChessBoardNew from './chessboard'
+import GameBoard from './gameBoard'
 function App() {
-  
   return (
     <div>
       <h1>Chess-Fe</h1>
-      <RenderChessBoardNew/>
+      <GameBoard/>
     </div>
   )
 }
